@@ -1,0 +1,25 @@
+body{
+    
+    width: 60svw;
+    margin: 0 auto;
+    background-color: #FAEBD0;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 76px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+nav{
+    width: 30%;
+    margin: 0 auto;
+}
+nav li{
+    list-style-type: none;
+}
