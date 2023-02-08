@@ -1,33 +1,89 @@
+*{
+    margin: 0;
+}
 body{
     font-family: 'Roboto', sans-serif;
+    background-color:#35241A;
+    font-size: 24px;
+    color:#D7D0C5;
+}
+.container{
     width: 60svw;
     margin: 0 auto;
-    background-color: #FAEBD0;
+    
 }
 h1{
-    
-    font-weight: 300;
-    font-size: 76px;
+    font-size: 64px;
+    font-weight: 400;
+    color: #DEC59C;
     text-align: center;
 }
 h2{
     text-align: center;
+    font-weight: 400;
+    
 }
 h3{
     text-align: center;
     font-weight: 500;
 }
-nav{
-    width: 35%;
-    margin: 0 auto;
-}
-nav li{
+
+.content li{
     list-style-type: none;
+    margin-top: 14px;
 }
 nav a{
     text-decoration: none;
-    color: saddlebrown;
+    color: #b6a88d;
 }
 nav a:hover{
-    color:coral;
+    color:#D7D0C5;
+}
+.alice{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/bg/alice_main.jpg);
+}
+.alice_block{
+    padding: 471px 0;
+    margin: 0 auto;
+    width: 82%;
+}
+.alice h2{
+    text-align: right;
+    font-size: 24px;
+    color: #D7D0C5;
+}
+.alice h3{
+    text-align: right;
+    font-size: 24px;
+    color: #D7D0C5;
+}
+.content{
+    background-image: url(../img/bg/alice_dirt.jpg);
+    width: 100%;
+    height: 100%;
+    padding: 250px 0;
+}
+.content h2{
+    font-weight: 400;
+    font-size: 48px;
+    
+    color: #DEC59C;
+    
+}
+
+.content_block{
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    justify-content: space-around;
+
+    font-weight: 400;
+font-size: 24px;
+color: #D7D0C5;
+
+}
+.text{
+    background-image: url(../img/bg/alice_dirt_2.jpg);
 }
